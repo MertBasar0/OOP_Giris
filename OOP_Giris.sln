@@ -5,6 +5,7 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Giris", "OOP_Giris\OOP_Giris.csproj", "{3C7DF489-0C71-4690-B32D-00043CF7252C}"
 EndProject
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferansTip", "ReferansTip\ReferansTip.csproj", "{5C1256DB-F755-49A3-9A0E-7DB52C27BAC6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "objectInitializer", "objectInitializer\objectInitializer.csproj", "{60884985-3C6A-49D6-AF6E-82206C9401A8}"
@@ -18,6 +19,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorMetot", "ConstructorMetot\ConstructorMetot.csproj", "{8166EBCD-9447-45A0-9006-EFFCA3B4C7BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Destructor", "Destructor\Destructor.csproj", "{BDCF20B7-A32E-4C88-AFCE-875D97E909BB}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classMembers", "classMembers\classMembers.csproj", "{3B9330F0-5F64-4246-927B-01FC3926A7F0}"
+>>>>>>> 2ca2b669ed161ee5b98af173f3944e91cffb01ee
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,7 @@ Global
 		{3C7DF489-0C71-4690-B32D-00043CF7252C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C7DF489-0C71-4690-B32D-00043CF7252C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C7DF489-0C71-4690-B32D-00043CF7252C}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{5C1256DB-F755-49A3-9A0E-7DB52C27BAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C1256DB-F755-49A3-9A0E-7DB52C27BAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C1256DB-F755-49A3-9A0E-7DB52C27BAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +62,12 @@ Global
 		{BDCF20B7-A32E-4C88-AFCE-875D97E909BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDCF20B7-A32E-4C88-AFCE-875D97E909BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDCF20B7-A32E-4C88-AFCE-875D97E909BB}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{3B9330F0-5F64-4246-927B-01FC3926A7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9330F0-5F64-4246-927B-01FC3926A7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9330F0-5F64-4246-927B-01FC3926A7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9330F0-5F64-4246-927B-01FC3926A7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 2ca2b669ed161ee5b98af173f3944e91cffb01ee
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
