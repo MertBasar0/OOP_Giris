@@ -1,3 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-//Kalbin kadar temiz bu sayfayı bana ayırdığın için teşekkür ederim :))) // Melis Atalay
+
+
+MyClass m1 = new MyClass();
+
+MyClass m2 = m1;
+
+class MyClass
+{
+
+}

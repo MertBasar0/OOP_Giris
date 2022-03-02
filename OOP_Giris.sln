@@ -5,7 +5,6 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Giris", "OOP_Giris\OOP_Giris.csproj", "{3C7DF489-0C71-4690-B32D-00043CF7252C}"
 EndProject
-<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferansTip", "ReferansTip\ReferansTip.csproj", "{5C1256DB-F755-49A3-9A0E-7DB52C27BAC6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "objectInitializer", "objectInitializer\objectInitializer.csproj", "{60884985-3C6A-49D6-AF6E-82206C9401A8}"
@@ -16,12 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncapsulationNimeti", "Enca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Records", "Records\Records.csproj", "{BB05B36A-2CFF-4A8D-89F6-28A573DC2E12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorMetot", "ConstructorMetot\ConstructorMetot.csproj", "{8166EBCD-9447-45A0-9006-EFFCA3B4C7BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorMetot", "ConstructorMetot\ConstructorMetot.csproj", "{8166EBCD-9447-45A0-9006-EFFCA3B4C7BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Destructor", "Destructor\Destructor.csproj", "{BDCF20B7-A32E-4C88-AFCE-875D97E909BB}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classMembers", "classMembers\classMembers.csproj", "{3B9330F0-5F64-4246-927B-01FC3926A7F0}"
->>>>>>> 2ca2b669ed161ee5b98af173f3944e91cffb01ee
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Destructor", "Destructor\Destructor.csproj", "{BDCF20B7-A32E-4C88-AFCE-875D97E909BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classMembers", "classMembers\classMembers.csproj", "{3B9330F0-5F64-4246-927B-01FC3926A7F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP_Tekrar", "OOP_Tekrar", "{D69F6967-2AA8-4A10-8ED9-A1E6894EE99C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classMembersTekrar", "classMembersTekrar\classMembersTekrar.csproj", "{7D1A635A-5FD7-43FB-BB83-3D1672B019BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kopyalamaTekrar", "kopyalamaTekrar\kopyalamaTekrar.csproj", "{8B30ED0B-A8B2-4364-8E37-0BDE06B07313}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,7 +37,6 @@ Global
 		{3C7DF489-0C71-4690-B32D-00043CF7252C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C7DF489-0C71-4690-B32D-00043CF7252C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C7DF489-0C71-4690-B32D-00043CF7252C}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{5C1256DB-F755-49A3-9A0E-7DB52C27BAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C1256DB-F755-49A3-9A0E-7DB52C27BAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C1256DB-F755-49A3-9A0E-7DB52C27BAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -62,15 +65,25 @@ Global
 		{BDCF20B7-A32E-4C88-AFCE-875D97E909BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDCF20B7-A32E-4C88-AFCE-875D97E909BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDCF20B7-A32E-4C88-AFCE-875D97E909BB}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{3B9330F0-5F64-4246-927B-01FC3926A7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3B9330F0-5F64-4246-927B-01FC3926A7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B9330F0-5F64-4246-927B-01FC3926A7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B9330F0-5F64-4246-927B-01FC3926A7F0}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 2ca2b669ed161ee5b98af173f3944e91cffb01ee
+		{7D1A635A-5FD7-43FB-BB83-3D1672B019BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1A635A-5FD7-43FB-BB83-3D1672B019BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1A635A-5FD7-43FB-BB83-3D1672B019BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1A635A-5FD7-43FB-BB83-3D1672B019BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B30ED0B-A8B2-4364-8E37-0BDE06B07313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B30ED0B-A8B2-4364-8E37-0BDE06B07313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B30ED0B-A8B2-4364-8E37-0BDE06B07313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B30ED0B-A8B2-4364-8E37-0BDE06B07313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D1A635A-5FD7-43FB-BB83-3D1672B019BE} = {D69F6967-2AA8-4A10-8ED9-A1E6894EE99C}
+		{8B30ED0B-A8B2-4364-8E37-0BDE06B07313} = {D69F6967-2AA8-4A10-8ED9-A1E6894EE99C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {40505F97-1660-49F8-9636-4BE20834406D}
