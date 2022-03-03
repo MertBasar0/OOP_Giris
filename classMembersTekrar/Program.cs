@@ -5,7 +5,7 @@ Sarap sarap1 = new Sarap();
 sarap1.Marka = "yeni rakı";
 
 sarap1.UzumTuru = "beyaz";
-Console.WriteLine(sarap1.Marka + sarap1.UzumTuru + sarap1.AlkolOranı + sarap1.KullanıldığıKokteyller);
+Console.WriteLine(sarap1.AlkolOranı + sarap1.Marka + sarap1.UzumTuru + sarap1.KullanıldığıKokteyller);
 
 
 
