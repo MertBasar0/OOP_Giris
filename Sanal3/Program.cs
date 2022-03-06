@@ -14,7 +14,7 @@ class Sekil
 
     virtual public int AlanHesapla()
     {
-        return ;
+
     }
 }
 
