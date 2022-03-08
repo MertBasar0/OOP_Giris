@@ -1,5 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
 
 
 
@@ -51,19 +50,19 @@ Console.WriteLine("Hello, World!");
 //}
 #endregion
 
-MyClass3 m = new MyClass3(40);
+MyClass3 m = new MyClass3(20);
 class MyClass
 {
     public MyClass(int a)
     {
-        Console.WriteLine(a+40);
+        Console.WriteLine(a);
     }
 }
 class MyClass2 : MyClass
 {
-    public MyClass2() : base(5) // Miras aldığım sınıfın ctor 'deger gönderme işlemini burdaki base keywordü ile sağlıyorum.'
+    public MyClass2(int t) : base(t) // Miras aldığım sınıfın ctor 'deger gönderme işlemini burdaki base keywordü ile sağlıyorum.'
     {
-        int a = 5;
+
     }
     public MyClass2(int z,int o) :base(z)
     {
@@ -73,8 +72,7 @@ class MyClass2 : MyClass
 }
 class MyClass3 : MyClass2
 {
-    int b = 15;
-    public MyClass3(int c) :base(10,15)
+    public MyClass3(int c) :base(c)
     {
 
     }

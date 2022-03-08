@@ -3,7 +3,7 @@
 
 public class One
 {
-    public int one { get; set; }
+    public int MyProperty { get; set; }
     public One(int a)
     {
 
@@ -12,7 +12,6 @@ public class One
 
 public class Two
 {
-    public int two { get; set; }
     public Two()
     {
 
@@ -21,7 +20,6 @@ public class Two
 
 public class Tree
 {
-    public int tree { get; set; }
     public Tree()
     {
 
@@ -30,8 +28,7 @@ public class Tree
 
 public class Four : One
 {
-    public int four { get; set; }
-    public Four(int b) :base(b)
+    public Four(int k) :base(k)
     {
 
     }
