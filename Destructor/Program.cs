@@ -1,16 +1,34 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
+//Kalbin kadar temiz bu sayfayı bana ayırdığın için teşekkür ederim :))) // Melis Atalay
+
+
 
 
 int sayi = 100;
-while(sayi >= 1)
+while (sayi >= 1)
 {
     new MyClass2(sayi--);
+<<<<<<< HEAD
     Console.WriteLine("-------------------------------");
     GC.Collect();
 }
 
+=======
+    GC.Collect();
+}
+
+//Console.WriteLine("-------------------------------");
+
+//Console.ReadLine(); 
+
+//x();
+////gc devreye soktuk.
+////Lüzumsuz herşeyi topla.
+//GC.Collect();
+
+>>>>>>> 15a7d7ace059842b8ff2d5c4b9b84aab1ca4e29c
 ////GC garbage collector'a ulaşmak için kullandığımız sınıftır.
 
 
@@ -31,7 +49,8 @@ class MyClass
 
     ~MyClass()
     {
-        Console.WriteLine("Nesne yıkıldı..");
+        Console.WriteLine("Nesne yıkıldı.."); /////////////////BUNU SOR//////////////////
+
     }
 }
 
@@ -66,7 +85,5 @@ class MyClass2
 //Esasında GC C# Bellek optimizasyonu üstüne bir yapılanmadır.
 //C#'da gc'nin ne zaman iş göreceğini anlamak kesin değildir. Kafasına göre çalışır..
 //Dolayısıyla bu yapıya manuel müdehale önerilmez..
-
-
 
 

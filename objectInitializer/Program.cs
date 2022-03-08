@@ -12,7 +12,7 @@ MyClass m1 = new MyClass()
 };
 
 
-//Bu şekilde new'leme işlemi esnasında object initializer yöntemi kullanarak prop'çarda başlangıç değeri
+//Bu şekilde new'leme işlemi esnasında object initializer yöntemi kullanarak prop'larda başlangıç değeri
 //aranarak nesne oluşturulur. Diğer türlü nesne oluşturmada prop içerisindeki değerler default olarak gelir.
 class MyClass
 {
