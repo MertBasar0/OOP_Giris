@@ -7,19 +7,11 @@ int sayi = 100;
 while(sayi >= 1)
 {
     new MyClass2(sayi--);
+    Console.WriteLine("-------------------------------");
+    GC.Collect();
 }
 
-Console.WriteLine("-------------------------------");
-GC.Collect();
-Console.ReadLine(); 
-
-//x();
-////gc devreye soktuk.
-////Lüzumsuz herşeyi topla.
-//GC.Collect();
-
 ////GC garbage collector'a ulaşmak için kullandığımız sınıftır.
-
 
 
 static void x()
@@ -36,8 +28,6 @@ class MyClass
     {
         Console.WriteLine("constructor çalıştı..");
     }
-
-   
 
     ~MyClass()
     {
@@ -57,7 +47,7 @@ class MyClass2
     }
     ~MyClass2()
     {
-        Console.WriteLine();
+        Console.WriteLine("silindi..");
     }
 }
 
@@ -67,16 +57,15 @@ class MyClass2
 //Yani ilgili nesneye bir daha erişilmez hale gelmelidir.
 //Destructor tanımlayabilmek için tilde kullanılır.
 //Yıkıcı metot yapıcı metot gibi class adi ile aynı ada sahip ve geri dönüş değeri yok.
-//Bu yapının amacı nesne silinirken 
-
-
-
-
+//Bu yapının amacı nesne silinirken yaptırmak istediğiniz son bir işlem varsa yaptırıp nesneye veda etmeniz için kullanılan özel bir fonksiyondur.
 
 //Garbage Collector
+
+
 //Uygulama içerisinde var olan lüzumsuz nsneleri toplar(çöp toplayıcısı)
 //Esasında GC C# Bellek optimizasyonu üstüne bir yapılanmadır.
-//C#'da gc'nin ne zaman iş göreceğini
+//C#'da gc'nin ne zaman iş göreceğini anlamak kesin değildir. Kafasına göre çalışır..
+//Dolayısıyla bu yapıya manuel müdehale önerilmez..
 
 
 

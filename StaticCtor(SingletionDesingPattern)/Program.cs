@@ -1,40 +1,40 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-
-DataBase database1 = DataBase.GetInstance;
-DataBase database2 = DataBase.GetInstance;
-DataBase DataBase3 = DataBase.GetInstance;
-
-database1.ConnectionString = "ConnectionString";
 
 
 
-class DataBase
-{
-    DataBase() //Dışarıdan newleme isteklerini sonuçlandırmaması içindir.
-    {
+//DataBase database1 = DataBase.GetInstance;
+//DataBase database2 = DataBase.GetInstance;
+//DataBase DataBase3 = DataBase.GetInstance;
 
-    }
+//database1.ConnectionString = "ConnectionString";
 
-    public  string ConnectionString { get; set; }
 
-    static DataBase database; //Referansın stack de tutulmasını sağladık.
 
-    static public DataBase GetInstance//Stack const sınıfın içerisinde oludğumuz için burda üretilen nesneyi database prop'ne geri döndm.
-    {
-        get
-        {
-            return database;
-        }
-    }
+//class DataBase
+//{
+//    DataBase() //Dışarıdan newleme isteklerini sonuçlandırmaması içindir.
+//    {
 
-    static DataBase()
-    {
-        database = new DataBase();//Static const sayesinde uygulama ilk kez ayağa kalktığında database static const
-                                  //bir kere newler bir daha program bitene kadar çalışmaz.
-    }
-}
+//    }
+
+//    public  string ConnectionString { get; set; }
+
+//    static DataBase database; //Referansın stack de tutulmasını sağladık.
+
+//    static public DataBase GetInstance//Stack const sınıfın içerisinde oludğumuz için burda üretilen nesneyi database prop'ne geri döndm.
+//    {
+//        get
+//        {
+//            return database;
+//        }
+//    }
+
+//    static DataBase()
+//    {
+//        database = new DataBase();//Static const sayesinde uygulama ilk kez ayağa kalktığında database static const
+//                                  //bir kere newler bir daha program bitene kadar çalışmaz.
+//    }
+//}
 
 
 

@@ -8,33 +8,29 @@ Kisi kisi = new Kisi
 };
 
 var(x,y) = kisi;
+Console.WriteLine($"{x}  {y}");
 
 
-//Bir sınıf içerisinde Deconstruct ismiyle tanımlanan metot compiler tarafından özel olarak algılanmakta ve sınıf
-//nesne üzerinden geriye hızlıca tuple bir değer dönmenizi sağlar.
+//Bir sınıf içerisinde “Deconstruct” ismiyle tanımlanan metot, compiler tarafından özel olarak algılanmakta
+//ve sınıfın nesnesi üzerinden geriye hızlıca Tuple tipte bir değer döndürmemizi sağlamaktadır.
+//Tuble =>> bir dizi cinsidir..
 
-
-class  Kisi
+class Kisi
 {
     public string Isim { get; set; }
     public int Yas { get; set; }
 
     public void Deconstruct(out string isim, out int yas)
     {
-        yas = Yas;
+        
         isim = Isim;
+        yas = Yas;
     }
 }
 
-
-class DB
-{
-    public string ConnectionString { get; set; }
-
-}
 //Sözlü mülakat için.
 
-
+ 
 
 
 
