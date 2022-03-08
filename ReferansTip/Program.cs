@@ -13,11 +13,15 @@ Console.WriteLine("Hello, World!");
 //Bu nedenle abstract, interface gibi nesneler new keywordü ile birlikte kullanılamazlar.
 
 
+
 MyClass m2 = null;
 m2.MyProperty = 80;
-
+new MyClass();
 Console.WriteLine(m2.MyProperty);
 
+int a;
+string b = "mert";
+string c = new string (b);
 
 
 class MyClass

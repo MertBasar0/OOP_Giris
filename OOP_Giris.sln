@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polimorfizm", "Polimorfizm\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPtekrarın tekrarı", "OOPtekrarın tekrarı\OOPtekrarın tekrarı.csproj", "{CE6011E4-AA9F-4721-95D5-B33E9AE29F47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMembers2", "ClassMembers2\ClassMembers2.csproj", "{A5E1FFBF-5948-438C-8004-C3916113AE82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMembers2", "ClassMembers2\ClassMembers2.csproj", "{A5E1FFBF-5948-438C-8004-C3916113AE82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalıtım2Tekrar", "Kalıtım2Tekrar\Kalıtım2Tekrar.csproj", "{097B3F03-5252-4E04-900C-6D09E422ED61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +157,10 @@ Global
 		{A5E1FFBF-5948-438C-8004-C3916113AE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5E1FFBF-5948-438C-8004-C3916113AE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5E1FFBF-5948-438C-8004-C3916113AE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097B3F03-5252-4E04-900C-6D09E422ED61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097B3F03-5252-4E04-900C-6D09E422ED61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097B3F03-5252-4E04-900C-6D09E422ED61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097B3F03-5252-4E04-900C-6D09E422ED61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

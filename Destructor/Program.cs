@@ -1,20 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-<<<<<<< HEAD
+
 //Kalbin kadar temiz bu sayfayı bana ayırdığın için teşekkür ederim :))) // Melis Atalay
-=======
+
 
 
 
 int sayi = 100;
-while(sayi >= 1)
+while (sayi >= 1)
 {
     new MyClass2(sayi--);
+    GC.Collect();
 }
 
-Console.WriteLine("-------------------------------");
-GC.Collect();
-Console.ReadLine(); 
+//Console.WriteLine("-------------------------------");
+
+//Console.ReadLine(); 
 
 //x();
 ////gc devreye soktuk.
@@ -44,7 +45,8 @@ class MyClass
 
     ~MyClass()
     {
-        Console.WriteLine("Nesne yıkıldı..");
+        Console.WriteLine("Nesne yıkıldı.."); /////////////////BUNU SOR//////////////////
+
     }
 }
 
@@ -60,7 +62,7 @@ class MyClass2
     }
     ~MyClass2()
     {
-        Console.WriteLine();
+        Console.WriteLine("silindi..");
     }
 }
 
@@ -82,6 +84,3 @@ class MyClass2
 //C#'da gc'nin ne zaman iş göreceğini
 
 
-
-
->>>>>>> 3c6909118b65e21aed2da87e7ba622ca63afd4cb
