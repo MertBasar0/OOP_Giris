@@ -18,4 +18,4 @@ class B : A
         //base.a =>> desemde erişemem çünkü private.
         //this.c // ile B class'ındaki c ye erişim sağlarız. Düz 'c' yazıldığında fonksiyonun parametresi olan 'c' ye ulaşabilirliz.
     }
-}
+} 
